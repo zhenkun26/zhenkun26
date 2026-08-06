@@ -45,18 +45,10 @@
 
 ---
 
-## 🧰 工具箱 / Toolbox
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,electron,python,fastapi,nodejs,postgres,redis,docker,k8s,git&perline=5" alt="skills"/>
-</p>
-
----
-
 ## 📬 找我玩 / Say Hi
 
-对桌宠、AI Agent、AI 编程或者任何有趣的工程话题感兴趣，都欢迎来聊 👇<br>
-Into desktop pets, AI agents, AI-assisted coding, or any fun engineering topic? Come say hi 👇
+对AI Agent、AI 编程或者任何有趣的工程话题感兴趣，都欢迎来聊 👇<br>
+Into AI agents, AI-assisted coding, or any fun engineering topic? Come say hi 👇
 
 📧 [zzk26personal@163.com](mailto:zzk26personal@163.com) · 🐙 [@zhenkun26](https://github.com/zhenkun26)
 
