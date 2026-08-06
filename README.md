@@ -1,4 +1,4 @@
-# Hi, I'm zhenkun26 👋
+# Hi, I'm zhenkun 👋
 
 一个喜欢把想法做成完整产品的开发者。
 
