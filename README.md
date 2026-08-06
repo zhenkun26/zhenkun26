@@ -3,10 +3,6 @@
 一个喜欢把想法做成完整产品的开发者。
 A developer who loves turning ideas into finished products.
 
-我的项目横跨三个方向：**桌面端的小而美**、**企业级的重而稳**，以及最近正在发力的 **AI 编程方法论**——把和 AI 一起写代码踩过的坑，沉淀成能兜底、可复用的体系。
-
-My projects span three directions: **refined desktop apps**, **enterprise-grade stability**, and my latest focus — **AI coding methodology**: turning the pitfalls of coding with AI into a dependable, reusable system.
-
 ---
 
 ## 🚀 Projects / 项目
