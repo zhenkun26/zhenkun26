@@ -8,14 +8,15 @@
 
 ## 🚀 Projects
 
-### 🐱 [DeskPet · 胡桃桌宠](https://github.com/zhenkun26/DeskPet)
+### 🐱 [二次元桌宠 · Desktop-pet](https://github.com/zhenkun26/Desktop-pet)
 
-一个 Electron 桌面宠物应用：透明置顶窗口、拖拽互动、AI 角色对话、休息提醒与番茄钟。
+一个 Electron 二次元桌宠应用：透明置顶窗口、拖拽互动、AI 角色对话、休息提醒与番茄钟，并预留多角色扩展框架（当前内置胡桃）。
 
 - Electron 39 + TypeScript 5.7，electron-vite 三端构建
-- DeepSeek 驱动的流式对话（SSE + 会话历史 + 角色设定）
-- API Key 使用系统钥匙串级加密存储
-- 完整的工程化：CI、单元测试（vitest）、OpenSpec 变更管理、macOS 打包发版
+- DeepSeek 驱动的流式对话（SSE + 会话历史 + 角色设定 + 监听器级故障隔离）
+- API Key 使用系统钥匙串级加密存储；HTTP 超时与输入参数校验等生产级加固
+- 多角色框架：`pet-registry` 注册表 + petId 全链路隔离，新增桌宠仅需登记素材与人设
+- 完整工程化：CI（typecheck + test + gitleaks）、81 项单元测试、OpenSpec 变更管理、多阶段 Docker 镜像（23MB）、K8s 参考清单、macOS 打包发版
 
 ### 🤖 [BusinessAgent · 企业知识工作流 Agent](https://github.com/zhenkun26/BusinessAgent)
 
