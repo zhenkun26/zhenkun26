@@ -1,7 +1,7 @@
 # Hi, I'm zhenkun 👋
 
-一个喜欢把想法做成完整产品的开发者。
-A developer who loves turning ideas into finished products.
+一个想法很多的开发者。
+A developer with many ideas.
 
 ---
 
