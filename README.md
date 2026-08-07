@@ -44,8 +44,8 @@
 `Risk-aware` `OpenSpec` `LLM Skill` `Codex`
 
 ### 🛠️ [hermes-agent-hardening](https://github.com/zhenkun26/hermes-agent-hardening) · 给 Hermes 做点二开
-> 因为想让 Hermes 更好用，所以简单做了一点小更新：把对抗性生产级审查炼成了一枚可复用技能——5 维扫描、P0/P1 分级、修完还会自己验证 ✅<br>
-> Wanted Hermes to be nicer to use, so I gave it a little upgrade: a reusable skill that turns adversarial production review into a habit — 5-dimension scan, P0/P1 triage, and it double-checks its own fixes ✅
+> 因为想让 Hermes 更好用，所以简单做了一点小更新：把对抗性生产级审查炼成了一枚可复用技能 ✅<br>
+> Wanted Hermes to be nicer to use, so I gave it a little upgrade: a reusable skill that turns adversarial production review into a habit ✅
 
 `Hermes Skill` `Hardening` `Security` `OpenSpec`
 
