@@ -47,7 +47,7 @@
 
 `Risk-aware` `OpenSpec` `LLM Skill` `Codex`
 
-### 🛠️ [hermes-agent-hardening](https://github.com/zhenkun26/hermes-agent-hardening) · 给 Hermes 做点二开
+### 🛠️ [EquiRebuild](https://github.com/zhenkun26/EquiRebuild) · 给 Hermes 做点二开
 > 因为想让 Hermes 更好用，所以简单做了一点小工具：把对抗性生产级审查炼成了一枚可复用技能 ✅<br>
 > To make Hermes more user‑friendly, I put together a simple little tool that forges adversarial production‑grade review into a reusable skill ✅
 
