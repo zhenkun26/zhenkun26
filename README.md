@@ -12,30 +12,34 @@
 
 ## 🐾 关于我 / About Me
 
-- 🐱 在桌面上养了一只会聊天的桌宠 —— DeepSeek 驱动，还会盯着你按时休息<br>
-  Raising a chatty desktop pet — powered by DeepSeek, and it nags me to take breaks
-- 🤖 企业级多 Agent 系统，让 AI 们分工干活、互相兜底<br>
-  Building enterprise multi-agent systems where AIs divide the work and back each other up
-- ⚡ AI 编程也需要「安全带」，于是给它造了一整套流程工具<br>
-  AI coding needs a seatbelt too — so I built it a full pipeline toolkit
-- 🌱 正在深入：Agent 编排 · RAG · 桌面应用<br>
-  Currently diving into: agent orchestration · RAG · desktop apps
+- 🤖 最大的一个家伙：企业级多 Agent 平台，让 AI 们分工干活、互相兜底，还有权限和审批当「管家」<br>
+  The biggest beast: an enterprise multi-agent platform where AIs split the work and back each other up — with RBAC & approvals as the housekeepers
+- 🐱 桌面上养了只会聊天的桌宠：DeepSeek 驱动，会卖萌，还会盯着我按时休息<br>
+  A chatty desktop pet lives on my screen: DeepSeek-powered, adorable, and it nags me to take breaks
+- ⚡ 给 AI 编程系上「安全带」：一整套风险感知的编码 skill，按风险分流、用证据说话<br>
+  Buckled a seatbelt on AI coding: a risk-aware delivery skill that routes by risk and speaks with evidence
+- 🛠️ 顺手给 Hermes 做了点小更新：把对抗性生产级审查炼成了一枚可复用技能<br>
+  Gave Hermes a little upgrade too: distilled adversarial production review into a reusable skill
+- ✈️ 新捏的旅行助手 TripMate：我负责说走就走，它负责排行程<br>
+  Freshly baked TripMate: I bring the wanderlust, it builds the itinerary
+- 🌱 正在探索：RAG · Agent · 大模型，以及一切好玩的 AI 工程 ✨<br>
+  Currently exploring: RAG · Agents · LLMs, and all things fun in AI engineering ✨
 
 ---
 
 ## 🚀 在玩的项目 / Projects
-
-### 🐱 [Desktop-pet](https://github.com/zhenkun26/Desktop-pet) · 胡桃桌宠
-> 透明置顶的二次元桌宠：拖拽互动、DeepSeek 角色对话（SSE 流式）、休息提醒与番茄钟，支持多角色扩展<br>
-> An always-on-top anime desktop pet: drag interactions, DeepSeek roleplay chat (SSE streaming), rest reminders & Pomodoro, with a multi-character framework
-
-`Electron` `TypeScript` `DeepSeek API` `Pomodoro`
 
 ### 🤖 [BusinessAgent](https://github.com/zhenkun26/BusinessAgent) · 智多星
 > 企业级多 Agent 平台：自然语言完成知识问答、数据分析、业务执行，带 RBAC 权限、审批闭环与 Saga 补偿<br>
 > An enterprise multi-agent platform: knowledge Q&A, data analysis and business execution in natural language — with RBAC, approval loops and Saga compensation
 
 `LangGraph` `FastAPI` `RAG` `Milvus` `Saga`
+
+### 🐱 [Desktop-pet](https://github.com/zhenkun26/Desktop-pet) · 胡桃桌宠
+> 透明置顶的二次元桌宠：拖拽互动、DeepSeek 角色对话（SSE 流式）、休息提醒与番茄钟，支持多角色扩展<br>
+> An always-on-top anime desktop pet: drag interactions, DeepSeek roleplay chat (SSE streaming), rest reminders & Pomodoro, with a multi-character framework
+
+`Electron` `TypeScript` `DeepSeek API` `Pomodoro`
 
 ### ⚡ [auto-coding](https://github.com/zhenkun26/auto-coding) · 风险感知编码 Skill
 > 给 AI Agent 的编码交付 skill：按风险分流、按复杂度规划、先复用再动手、用证据说话<br>
@@ -44,8 +48,8 @@
 `Risk-aware` `OpenSpec` `LLM Skill` `Codex`
 
 ### 🛠️ [hermes-agent-hardening](https://github.com/zhenkun26/hermes-agent-hardening) · 给 Hermes 做点二开
-> 因为想让 Hermes 更好用，所以简单做了一点小更新：把对抗性生产级审查炼成了一枚可复用技能 ✅<br>
-> Wanted Hermes to be nicer to use, so I gave it a little upgrade: a reusable skill that turns adversarial production review into a habit ✅
+> 因为想让 Hermes 更好用，所以简单做了一点小更新：把对抗性生产级审查炼成了一枚可复用技能——5 维扫描、P0/P1 分级、修完还会自己验证 ✅<br>
+> Wanted Hermes to be nicer to use, so I gave it a little upgrade: a reusable skill that turns adversarial production review into a habit — 5-dimension scan, P0/P1 triage, and it double-checks its own fixes ✅
 
 `Hermes Skill` `Hardening` `Security` `OpenSpec`
 
