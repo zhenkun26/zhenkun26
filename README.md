@@ -37,17 +37,23 @@
 
 `LangGraph` `FastAPI` `RAG` `Milvus` `Saga`
 
-### ⚡ [auto-coding](https://github.com/zhenkun26/auto-coding) · AI 编程搭档
-> 为 AI 编码全流程兜底：OpenSpec 规划 → Pipeline 执行 → 按复杂度自动分流，一键安装 Codex 插件<br>
-> A safety net for the whole AI coding flow: OpenSpec planning → Pipeline execution → auto-routing by complexity, with one-click Codex plugin install
+### ⚡ [auto-coding](https://github.com/zhenkun26/auto-coding) · 风险感知编码 Skill
+> 给 AI Agent 的编码交付 skill：按风险分流、按复杂度规划、先复用再动手、用证据说话<br>
+> A risk-aware coding delivery skill for AI agents: route by risk, plan proportionally, reuse before writing, verify with evidence
 
-`OpenSpec` `Pipeline` `Codex Plugin` `CI/CD`
+`Risk-aware` `OpenSpec` `LLM Skill` `Codex`
 
-### 🛡️ [hermes-agent-hardening](https://github.com/zhenkun26/hermes-agent-hardening) · Hermes 加固
-> 基于 NousResearch/hermes-agent 的二次开发工作区：把对抗性生产级审查固化为 Hermes 技能（5 维扫描、P0/P1 分级、修复-验证闭环），dogfooding 自审<br>
-> A workspace on NousResearch/hermes-agent: a reusable Hermes "hardening-review" skill turning adversarial production-grade review into a standard flow — 5-dimension scan, P0/P1 triage, fix-verify loop, dogfooded on itself
+### 🛠️ [hermes-agent-hardening](https://github.com/zhenkun26/hermes-agent-hardening) · 给 Hermes 做点二开
+> 因为想让 Hermes 更好用，所以简单做了一点小更新：把对抗性生产级审查炼成了一枚可复用技能——5 维扫描、P0/P1 分级、修完还会自己验证 ✅<br>
+> Wanted Hermes to be nicer to use, so I gave it a little upgrade: a reusable skill that turns adversarial production review into a habit — 5-dimension scan, P0/P1 triage, and it double-checks its own fixes ✅
 
-`Hermes Skill` `Security` `OpenSpec` `Python`
+`Hermes Skill` `Hardening` `Security` `OpenSpec`
+
+### ✈️ [TripMate](https://github.com/zhenkun26/TripMate) · 智能旅行助手
+> AI 旅行规划 MVP：你负责说走就走，行程交给 Agent 来排<br>
+> An AI trip-planning MVP: you bring the wanderlust, the agent builds the itinerary
+
+`Python` `AI Agent` `MVP`
 
 ---
 
