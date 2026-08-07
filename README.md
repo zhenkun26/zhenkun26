@@ -12,8 +12,8 @@
 
 ## 🐾 关于我 / About Me
 
-- 🤖 最大的一个家伙：企业级多 Agent 平台，让 AI 们分工干活、互相兜底，还有权限和审批当「管家」<br>
-  The biggest beast: an enterprise multi-agent platform where AIs split the work and back each other up — with RBAC & approvals as the housekeepers
+- 🤖 企业多 Agent 平台，让 AI 们分工干活、互相兜底，还有权限和审批当「管家」<br>
+  An enterprise multi-agent platform where AIs split the work and back each other up — with RBAC & approvals as the housekeepers
 - 🐱 桌面上养了只会聊天的桌宠：DeepSeek 驱动，会卖萌，还会盯着我按时休息<br>
   A chatty desktop pet lives on my screen: DeepSeek-powered, adorable, and it nags me to take breaks
 - ⚡ 给 AI 编程系上「安全带」：一整套风险感知的编码 skill，按风险分流、用证据说话<br>
