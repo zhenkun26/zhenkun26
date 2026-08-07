@@ -12,14 +12,14 @@
 
 ## 🐾 关于我 / About Me
 
-- 🤖 企业级多Agent 平台：让 AI 们分工干活、互相兜底，还有权限和审批当「管家」<br>
-  An enterprise multi-agent platform where AIs split the work and back each other up — with RBAC & approvals as the housekeepers
+- 🤖 最大的一个家伙：企业级多 Agent 平台，让 AI 们分工干活、互相兜底，还有权限和审批当「管家」<br>
+  The biggest beast: an enterprise multi-agent platform where AIs split the work and back each other up — with RBAC & approvals as the housekeepers
 - 🐱 桌面上养了只会聊天的桌宠：DeepSeek 驱动，会卖萌，还会盯着我按时休息<br>
   A chatty desktop pet lives on my screen: DeepSeek-powered, adorable, and it nags me to take breaks
 - ⚡ 给 AI 编程系上「安全带」：一整套风险感知的编码 skill，按风险分流、用证据说话<br>
   Buckled a seatbelt on AI coding: a risk-aware delivery skill that routes by risk and speaks with evidence
-- 🛠️ 顺手给 Hermes 做了点小更新：把对抗性生产级审查炼成了一枚可复用技能<br>
-  Gave Hermes a little upgrade too: distilled adversarial production review into a reusable skill
+- 🛠️ 顺手给 Hermes 做了点小工具：把对抗性生产级审查炼成了一枚可复用技能<br>
+  Whipped up a little tool for Hermes too: distilled adversarial production review into a reusable skill
 - ✈️ 新捏的旅行助手 TripMate：我负责说走就走，它负责排行程<br>
   Freshly baked TripMate: I bring the wanderlust, it builds the itinerary
 - 🌱 正在探索：RAG · Agent · 大模型，以及一切好玩的 AI 工程 ✨<br>
