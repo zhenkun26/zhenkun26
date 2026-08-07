@@ -1,5 +1,5 @@
 <!-- 🌊 彩色波浪头部 -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,16,20&height=180&section=header&text=Hi%2C%20I'm%20zhenkun%20👋&fontSize=42&animation=twinkling&fontAlignY=32&desc=一个想法很多的开发者%20·%20A%20developer%20with%20many%20ideas&descSize=16&descAlignY=55"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,16,20&height=180&section=header&text=Hi%2C%20I%27m%20zhenkun%20%F0%9F%91%8B&fontSize=42&animation=twinkling&fontAlignY=32&desc=%E7%94%A8%E4%BB%A3%E7%A0%81%E6%94%B6%E9%9B%86%E5%85%B4%E8%B6%A3%EF%BC%8C%E7%94%A8%20AI%20%E6%94%BE%E5%A4%A7%E8%84%91%E6%B4%9E%20%C2%B7%20Code%20for%20what%20I%20love%2C%20AI%20for%20what%20I%20dream%20up&descSize=16&descAlignY=55"/>
 
 <!-- ⌨️ 打字机动画（英文行，保证渲染稳定） -->
 <p align="center">
