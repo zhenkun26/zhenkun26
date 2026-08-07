@@ -43,6 +43,12 @@
 
 `OpenSpec` `Pipeline` `Codex Plugin` `CI/CD`
 
+### 🛡️ [hermes-agent-hardening](https://github.com/zhenkun26/hermes-agent-hardening) · Hermes 加固
+> 基于 NousResearch/hermes-agent 的二次开发工作区：把对抗性生产级审查固化为 Hermes 技能（5 维扫描、P0/P1 分级、修复-验证闭环），dogfooding 自审<br>
+> A workspace on NousResearch/hermes-agent: a reusable Hermes "hardening-review" skill turning adversarial production-grade review into a standard flow — 5-dimension scan, P0/P1 triage, fix-verify loop, dogfooded on itself
+
+`Hermes Skill` `Security` `OpenSpec` `Python`
+
 ---
 
 ## 📬 找我玩 / Say Hi
