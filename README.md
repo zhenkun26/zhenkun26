@@ -1,72 +1,65 @@
-<!-- 🌊 彩色波浪头部 -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,16,20&height=180&section=header&text=Hi%2C%20I%27m%20zhenkun%20%F0%9F%91%8B&fontSize=42&animation=twinkling&fontAlignY=32&desc=%E7%94%A8%E4%BB%A3%E7%A0%81%E6%94%B6%E9%9B%86%E5%85%B4%E8%B6%A3%EF%BC%8C%E7%94%A8%20AI%20%E6%94%BE%E5%A4%A7%E8%84%91%E6%B4%9E%20%C2%B7%20Code%20for%20what%20I%20love%2C%20AI%20for%20what%20I%20dream%20up&descSize=16&descAlignY=55"/>
+# zhenkun
 
-<!-- ⌨️ 打字机动画（英文行，保证渲染稳定） -->
-<p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira%20Code&weight=600&size=22&duration=3000&pause=800&color=FF7EB3&center=true&vCenter=true&width=640&lines=Desktop%20Pet%20%2B%20AI%20Agents%20%2B%20Automation%3BTurning%20wild%20ideas%20into%20running%20code%3BCode%20can%20be%20serious%20--%20and%20fun%20too" alt="Typing SVG" />
-  </a>
-</p>
+> **AI 应用与 Python 后端开发者**<br>
+> AI Application & Python Backend Developer
 
----
+我专注于构建**可控的 Agent 工作流、可验证的 RAG，以及面向可靠性的后端系统**。目前正在寻找 AI 应用工程 / Python 后端开发相关机会。
 
-## 🐾 关于我 / About Me
+I build controllable agent workflows, evidence-backed RAG, and reliability-oriented backend systems. Open to AI application and Python backend opportunities.
 
-- 🤖 企业多 Agent 平台，让 AI 们分工干活、互相兜底，还有权限和审批当「管家」<br>
-  An enterprise multi-agent platform where AIs split the work and back each other up — with RBAC & approvals as the housekeepers
-- 🐱 桌面上养了只会聊天的桌宠：DeepSeek 驱动，会卖萌，还会盯着我按时休息<br>
-  A chatty desktop pet lives on my screen: DeepSeek-powered, adorable, and it nags me to take breaks
-- ⚡ 给 AI 编程系上「安全带」：一整套风险感知的编码 skill，按风险分流、用证据说话<br>
-  Buckled a seatbelt on AI coding: a risk-aware delivery skill that routes by risk and speaks with evidence
-- 🛠️ 顺手给 Hermes 做了点小工具：把对抗性生产级审查炼成了一枚可复用技能<br>
-  Whipped up a little tool for Hermes too: distilled adversarial production review into a reusable skill
-- ✈️ 新捏的旅行助手 TripMate：我负责说走就走，它负责排行程<br>
-  Freshly baked TripMate: I bring the wanderlust, it builds the itinerary
-- 🌱 正在探索：RAG · Agent · 大模型，以及一切好玩的 AI 工程 ✨<br>
-  Currently exploring: RAG · Agents · LLMs, and all things fun in AI engineering ✨
+[![Email](https://img.shields.io/badge/Email-zzk26personal%40163.com-555?style=flat-square&logo=maildotru&logoColor=white)](mailto:zzk26personal@163.com)
+[![GitHub](https://img.shields.io/badge/GitHub-zhenkun26-181717?style=flat-square&logo=github)](https://github.com/zhenkun26)
 
----
+## Selected Work
 
-## 🚀 在玩的项目 / Projects
+### [BusinessAgent · 智多星](https://github.com/zhenkun26/BusinessAgent)
 
-### 🤖 [BusinessAgent](https://github.com/zhenkun26/BusinessAgent) · 智多星
-> 企业级多 Agent 平台：自然语言完成知识问答、数据分析、业务执行，带 RBAC 权限、审批闭环与 Saga 补偿<br>
-> An enterprise multi-agent platform: knowledge Q&A, data analysis and business execution in natural language — with RBAC, approval loops and Saga compensation
+- **价值**：面向企业知识问答、数据分析和受控业务操作的多 Agent 工作流系统。
+- **难点**：LangGraph 显式状态机、两阶段 RAG、RBAC 与审批、Saga 补偿、降级和可观测性。
+- **证据**：我的工作重点包括生产就绪评审、RAG 质量、测试/CI、安全加固、性能与灾备、工单适配；仓库包含 [101 项自动化测试](https://github.com/zhenkun26/BusinessAgent/tree/main/enterprise-agent/tests)、[CI 安全检查](https://github.com/zhenkun26/BusinessAgent/actions/workflows/ci.yml)及部署与演练资产。外部 CRM 与邮件目前以 Mock/契约适配为主，工单链路完成 HTTP 适配与 stub 沙箱验收。
 
-`LangGraph` `FastAPI` `RAG` `Milvus` `Saga`
+`Python` `FastAPI` `LangGraph` `Milvus` `PostgreSQL` `Redis` `OpenTelemetry`
 
-### 🐱 [Desktop-pet](https://github.com/zhenkun26/Desktop-pet) · 胡桃桌宠
-> 透明置顶的二次元桌宠：拖拽互动、DeepSeek 角色对话（SSE 流式）、休息提醒与番茄钟，支持多角色扩展<br>
-> An always-on-top anime desktop pet: drag interactions, DeepSeek roleplay chat (SSE streaming), rest reminders & Pomodoro, with a multi-character framework
+### [TripMate · 智能旅行助手](https://github.com/zhenkun26/TripMate)
 
-`Electron` `TypeScript` `DeepSeek API` `Pomodoro`
+- **价值**：基于高德候选数据生成结构化行程，并提供预算估算、天气、地图和分享输出。
+- **难点**：并行外部数据采集、结构化输出校验与修复、Redis 缓存/限流、前后端契约同步。
+- **证据**：[后端与前端测试](https://github.com/zhenkun26/TripMate/tree/main/backend/tests)、[ruff + mypy strict + pytest + Vitest CI](https://github.com/zhenkun26/TripMate/actions/workflows/ci.yml)、Pydantic → TypeScript 契约生成及 Docker Compose 启动链路。
 
-### ⚡ [auto-coding](https://github.com/zhenkun26/auto-coding) · 风险感知编码 Skill
-> 给 AI Agent 的编码交付 skill：按风险分流、按复杂度规划、先复用再动手、用证据说话<br>
-> A risk-aware coding delivery skill for AI agents: route by risk, plan proportionally, reuse before writing, verify with evidence
+`Python` `FastAPI` `Vue 3` `TypeScript` `Pydantic` `Redis` `LLM Structured Output`
 
-`Risk-aware` `OpenSpec` `LLM Skill` `Codex`
+### [Desktop-pet · 二次元桌宠](https://github.com/zhenkun26/Desktop-pet)
 
-### 🛠️ [EquiRebuild](https://github.com/zhenkun26/EquiRebuild) · 给 Hermes 做点二开
-> 因为想让 Hermes 更好用，所以简单做了一点小工具：把对抗性生产级审查炼成了一枚可复用技能 ✅<br>
-> To make Hermes more user‑friendly, I put together a simple little tool that forges adversarial production‑grade review into a reusable skill ✅
+- **价值**：集成流式 AI 对话、会话存储、休息提醒和番茄钟的 macOS Electron 桌面应用。
+- **难点**：Electron 进程隔离与 IPC、SSE 解析/取消/超时、SQLite 数据迁移、safeStorage 密钥保存。
+- **证据**：[核心服务与测试](https://github.com/zhenkun26/Desktop-pet/tree/main/src/main/services)、[TypeScript 构建与测试 CI](https://github.com/zhenkun26/Desktop-pet/actions/workflows/ci.yml)、DMG 打包流程。角色美术资源仅用于非商业学习与交流。
 
-`Hermes Skill` `Hardening` `Security` `OpenSpec`
+`Electron` `TypeScript` `DeepSeek API` `SSE` `SQLite` `safeStorage`
 
-### ✈️ [TripMate](https://github.com/zhenkun26/TripMate) · 智能旅行助手
-> AI 旅行规划 MVP：你负责说走就走，行程交给 Agent 来排<br>
-> An AI trip-planning MVP: you bring the wanderlust, the agent builds the itinerary
+## Capabilities with Evidence
 
-`Python` `AI Agent` `MVP`
+| 能力域 | 技术与设计 | 项目证据 |
+| --- | --- | --- |
+| Agent 工作流 | StateGraph、并行 fan-out、重规划、工具网关、Human-in-the-loop | [BusinessAgent](https://github.com/zhenkun26/BusinessAgent) |
+| RAG 工程 | Milvus HNSW、BGE Reranker、来源标注、置信度决策、检索降级 | [BusinessAgent](https://github.com/zhenkun26/BusinessAgent) |
+| AI 应用集成 | 结构化输出、外部数据约束、SSE 流式响应、失败重试与降级 | [TripMate](https://github.com/zhenkun26/TripMate) · [Desktop-pet](https://github.com/zhenkun26/Desktop-pet) |
+| Python 后端 | FastAPI、Pydantic、JWT/RBAC、PostgreSQL、Redis、限流与幂等 | [BusinessAgent](https://github.com/zhenkun26/BusinessAgent) · [TripMate](https://github.com/zhenkun26/TripMate) |
+| 可靠性与交付 | Saga、任务队列、审计、Metrics/Trace、CI、安全扫描、容器化配置 | [BusinessAgent](https://github.com/zhenkun26/BusinessAgent) |
+| 工程质量 | pytest、Vitest、mypy strict、ruff、契约漂移检查、对抗性 fixtures | [TripMate](https://github.com/zhenkun26/TripMate) · [auto-coding](https://github.com/zhenkun26/auto-coding) |
 
----
+## Tooling & Experiments
 
-## 📬 找我玩 / Say Hi
+- **[auto-coding](https://github.com/zhenkun26/auto-coding)**：面向 AI 编码助手的风险感知交付 skill；包含风险路由、AST 契约检查、原子状态恢复、CI 与版本发布。
+- **[EquiRebuild](https://github.com/zhenkun26/EquiRebuild)**：Hermes 生态扩展实验；提供可配置的代码加固扫描器与审查 skill，并以离线测试和并发冒烟验证。
 
-对AI Agent、AI 编程或者任何有趣的工程话题感兴趣，都欢迎来聊 👇<br>
-Into AI agents, AI-assisted coding, or any fun engineering topic? Come say hi 👇
+## What I Care About
 
-📧 [zzk26personal@163.com](mailto:zzk26personal@163.com) · 🐙 [@zhenkun26](https://github.com/zhenkun26)
+- 让 Agent 的路由、权限和副作用边界可检查，而不是依赖模型临场发挥。
+- 让 RAG 回答能追溯来源、评测质量，并在证据不足时明确拒答或降级。
+- 让后端系统通过类型、测试、审计、指标和故障路径证明可靠性。
 
-<!-- 🌊 收尾波浪 -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,16,20&height=120&section=footer"/>
+## Contact
+
+正在寻找 **AI 应用工程 / Python 后端开发** 相关机会，也欢迎交流 Agent、RAG 和 AI 工程实践。
+
+📧 [zzk26personal@163.com](mailto:zzk26personal@163.com) · 🐙 [github.com/zhenkun26](https://github.com/zhenkun26)
