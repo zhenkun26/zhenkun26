@@ -36,10 +36,10 @@ In practice I'm fluent in **Vibe Coding** — AI coding assistants as the primar
 
 - **价值 · Value**：面向企业知识问答、数据分析和受控业务操作的多 Agent 工作流系统——回答有据可查、操作有审批、执行有审计。
   A multi-agent workflow system for enterprise knowledge Q&A, data analysis, and controlled operations — answers with sources, operations with approvals, execution with audit trails.
-- **难点 · Challenges**：LangGraph 显式状态机、两阶段 RAG、RBAC 审批流、Saga 补偿、优雅降级与可观测性。
-  LangGraph explicit state machines, two-stage RAG, RBAC approval flows, Saga compensation, graceful degradation, and observability.
-- **落地 · Shipped**：[101 项自动化测试](https://github.com/zhenkun26/BusinessAgent/tree/main/enterprise-agent/tests)、[CI 安全检查](https://github.com/zhenkun26/BusinessAgent/actions/workflows/ci.yml)及部署与演练资产；外部 CRM/邮件以 Mock/契约适配为主，工单链路完成 HTTP 适配与 stub 沙箱验收。
-  [101 automated tests](https://github.com/zhenkun26/BusinessAgent/tree/main/enterprise-agent/tests), [CI security scanning](https://github.com/zhenkun26/BusinessAgent/actions/workflows/ci.yml), and deployment & drill assets; CRM/email via mock/contract adapters, ticket workflows verified with HTTP adapters and stub sandbox acceptance.
+- **难点 · Challenges**：多 Agent 协作的落地难题——任务流转的显式编排、知识与数据双通道检索、高风险操作的审批与权限、跨环节失败的一致性补偿、故障时的优雅降级。
+  Turning multi-agent orchestration into production — explicit workflow state machines, two-stage retrieval for knowledge and data, approvals and permissions for high-risk actions, consistent compensation when a step fails mid-chain, and graceful degradation.
+- **落地 · Shipped**：[101 项自动化测试](https://github.com/zhenkun26/BusinessAgent/tree/main/enterprise-agent/tests)、[CI 安全检查](https://github.com/zhenkun26/BusinessAgent/actions/workflows/ci.yml)及部署与演练资产；外部 CRM/邮件通过模拟与契约方式接入，工单链路走通真实 HTTP 适配与沙箱验收。
+  [101 automated tests](https://github.com/zhenkun26/BusinessAgent/tree/main/enterprise-agent/tests), [CI security scanning](https://github.com/zhenkun26/BusinessAgent/actions/workflows/ci.yml), and deployment & drill assets; CRM/email integrated via mocks and contract adapters, ticket flows verified end-to-end with real HTTP adapters and sandbox acceptance.
 
 `Python` `FastAPI` `LangGraph` `Milvus` `PostgreSQL` `Redis` `OpenTelemetry`
 
@@ -49,10 +49,10 @@ In practice I'm fluent in **Vibe Coding** — AI coding assistants as the primar
 
 - **价值 · Value**：基于高德候选数据生成结构化行程，预算估算、天气、地图、分享一站式输出。
   Structured itineraries from Amap candidate data — budget, weather, maps, and shareable output in one flow.
-- **难点 · Challenges**：并行外部数据采集、结构化输出校验与修复、Redis 缓存与限流、前后端契约同步。
-  Parallel external data fetching, structured-output validation & repair, Redis caching/rate limiting, and frontend-backend contract sync.
-- **落地 · Shipped**：[后端与前端测试](https://github.com/zhenkun26/TripMate/tree/main/backend/tests)、[ruff + mypy strict + pytest + Vitest CI](https://github.com/zhenkun26/TripMate/actions/workflows/ci.yml)、Pydantic → TypeScript 契约生成与 Docker Compose 启动链路。
-  [Backend & frontend tests](https://github.com/zhenkun26/TripMate/tree/main/backend/tests), [ruff + mypy strict + pytest + Vitest CI](https://github.com/zhenkun26/TripMate/actions/workflows/ci.yml), Pydantic → TypeScript contract generation, and Docker Compose launch.
+- **难点 · Challenges**：真实出行的工程问题——多数据源并行采集、AI 输出格式漂移的自动校验与修复、缓存与限流扛住突发流量、前后端契约保持一致。
+  Real-world travel engineering — parallel fetching from multiple data sources, auto-validating and repairing AI output drift, cache and rate limits for traffic spikes, and keeping frontend-backend contracts in sync.
+- **落地 · Shipped**：[后端与前端测试](https://github.com/zhenkun26/TripMate/tree/main/backend/tests)、[ruff + mypy strict + pytest + Vitest CI](https://github.com/zhenkun26/TripMate/actions/workflows/ci.yml)、前后端契约自动生成与 Docker Compose 一键启动。
+  [Backend & frontend tests](https://github.com/zhenkun26/TripMate/tree/main/backend/tests), [ruff + mypy strict + pytest + Vitest CI](https://github.com/zhenkun26/TripMate/actions/workflows/ci.yml), auto-generated frontend-backend contracts, and one-command Docker Compose startup.
 
 `Python` `FastAPI` `Vue 3` `TypeScript` `Pydantic` `Redis` `LLM Structured Output`
 
@@ -60,12 +60,12 @@ In practice I'm fluent in **Vibe Coding** — AI coding assistants as the primar
 
 ### ⚡ [FlashFlow · 闪电购](https://github.com/zhenkun26/FlashFlow)
 
-- **价值 · Value**：数据库优先的闪电购实验室——从同步 MySQL 正确性、Redis Lua 准入、RocketMQ 消息化，到事务性 Outbox 的可恢复发布，逐版本验证高并发限量抢购的正确性边界。
-  A database-first limited-stock ordering laboratory — evolving from synchronous MySQL correctness, Redis Lua admission, and RocketMQ messaging to recoverable Transactional Outbox publication, proving the correctness boundaries of high-concurrency ordering release by release.
-- **难点 · Challenges**：四种库存策略对照（条件原子更新 / 悲观锁 / 乐观锁 / 不安全"先读后写"对照组）、10 条不变量、确定性竞态与幂等测试、真实 RocketMQ 故障矩阵与租约恢复、毒消息死信。
-  Four inventory strategies side by side (conditional atomic update / pessimistic lock / optimistic lock / unsafe read-then-write control), ten invariants, deterministic race and idempotency tests, a live RocketMQ fault matrix with lease-based recovery, and poison-message dead letters.
-- **落地 · Shipped**：[124 项自动化测试与逐版本验证报告](https://github.com/zhenkun26/FlashFlow/blob/main/docs/verification/current-status.md)——V4 干净修订通过完整套件与真实 RocketMQ 恢复矩阵，经 OpenSpec 严格校验与归档后发布；不做生产容量声明。
-  [124 tests with dated verification reports](https://github.com/zhenkun26/FlashFlow/blob/main/docs/verification/current-status.md) — the clean V4 revision passed the full suite and the live RocketMQ recovery matrix, then shipped after OpenSpec strict validation and archiving; no production-capacity claim is made.
+- **价值 · Value**：专注限量抢购正确性的工程实验——从 MySQL 同步下单、Redis 抢购闸门、RocketMQ 消息化，到故障自愈的可靠发布，每个版本都验证同一件事：抢得再猛，账也不会错。
+  A database-first flash-sale lab — from synchronous MySQL ordering and Redis admission gates to RocketMQ messaging and recoverable Outbox publication, each release proving one thing: under the heaviest rush, the books never break.
+- **难点 · Challenges**：抢购背后的真实并发难题——四种扣库存策略同台对比（含一个故意留的错误对照组）、10 条账目铁律、高并发下的竞态与重复请求测试、消息丢失或积压后的自动恢复、异常消息的隔离兜底。
+  The real concurrency puzzles behind flash sales — four inventory strategies compared head-to-head (including a deliberately unsafe control), ten hard bookkeeping rules, race and duplicate-request tests under contention, automatic recovery from lost or backlogged messages, and poison-message isolation.
+- **落地 · Shipped**：[124 项自动化测试与逐版本验证报告](https://github.com/zhenkun26/FlashFlow/blob/main/docs/verification/current-status.md)——每个版本都先过完整测试与真实故障演练，再带着可复现的证据发布；如实标注实验室定位，不做生产容量承诺。
+  [124 automated tests with dated verification reports](https://github.com/zhenkun26/FlashFlow/blob/main/docs/verification/current-status.md) — every release passes the full suite and live fault drills before shipping, backed by reproducible evidence; honestly scoped as a laboratory, with no production-capacity claims.
 
 `Java 21` `Spring Boot` `MySQL/InnoDB` `Redis Lua` `RocketMQ` `Transactional Outbox` `Testcontainers` `k6`
 
@@ -113,10 +113,10 @@ Permissions are enforced before execution, answers refuse on insufficient eviden
 
 ## 🛠️ 工具与实验 · Tooling & Experiments
 
-- **[auto-coding](https://github.com/zhenkun26/auto-coding)**：面向 AI 编码助手的风险感知交付 skill——风险路由、AST 契约检查、原子状态恢复、CI 与版本发布。
-  A risk-aware delivery skill for AI coding assistants — risk routing, AST contract checks, atomic state recovery, CI, and versioned releases.
-- **[EquiRebuild](https://github.com/zhenkun26/EquiRebuild)**：Hermes 生态扩展实验——可配置的代码加固扫描器与审查 skill，经离线测试与并发冒烟验证。
-  A Hermes ecosystem extension — a configurable code hardening scanner and review skill, verified with offline tests and concurrent smoke testing.
+- **[auto-coding](https://github.com/zhenkun26/auto-coding)**：面向 AI 编码助手的风险感知交付 skill——按风险分级规划执行深度、结构级契约检查、中断后的安全恢复、CI 与版本发布。
+  A risk-aware delivery skill for AI coding assistants — risk-graded planning, structural contract checks, safe recovery after interruptions, CI, and versioned releases.
+- **[EquiRebuild](https://github.com/zhenkun26/EquiRebuild)**：Hermes 生态扩展实验——可配置的代码审查与加固 skill，经离线测试与并发演练验证。
+  A Hermes ecosystem extension — a configurable code review and hardening skill, verified with offline tests and concurrent drills.
 
 ---
 
