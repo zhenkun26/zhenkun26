@@ -58,9 +58,9 @@ In practice I'm fluent in **Vibe Coding** — AI coding assistants as the primar
 
 ---
 
-### ⚡ [FlashFlow · 限量下单实验室](https://github.com/zhenkun26/FlashFlow)
+### ⚡ [FlashFlow · 闪电购](https://github.com/zhenkun26/FlashFlow)
 
-- **价值 · Value**：数据库优先的限量下单实验室——从同步 MySQL 正确性、Redis Lua 准入、RocketMQ 消息化，到事务性 Outbox 的可恢复发布，逐版本验证高并发限量下单的正确性边界。
+- **价值 · Value**：数据库优先的闪电购实验室——从同步 MySQL 正确性、Redis Lua 准入、RocketMQ 消息化，到事务性 Outbox 的可恢复发布，逐版本验证高并发限量抢购的正确性边界。
   A database-first limited-stock ordering laboratory — evolving from synchronous MySQL correctness, Redis Lua admission, and RocketMQ messaging to recoverable Transactional Outbox publication, proving the correctness boundaries of high-concurrency ordering release by release.
 - **难点 · Challenges**：四种库存策略对照（条件原子更新 / 悲观锁 / 乐观锁 / 不安全"先读后写"对照组）、10 条不变量、确定性竞态与幂等测试、真实 RocketMQ 故障矩阵与租约恢复、毒消息死信。
   Four inventory strategies side by side (conditional atomic update / pessimistic lock / optimistic lock / unsafe read-then-write control), ten invariants, deterministic race and idempotency tests, a live RocketMQ fault matrix with lease-based recovery, and poison-message dead letters.
