@@ -13,7 +13,6 @@
 ![RAG](https://img.shields.io/badge/RAG-Milvus_%26_BGE-6d28d9?style=flat-square)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
 
 </div>
 
@@ -24,6 +23,10 @@
 我专注于把 LLM 应用与 Agent 系统做成**可靠的产品**：路由、权限与副作用边界可审计；RAG 回答可追溯、可评测；后端行为用测试与指标证明。我习惯亲手走完「设计 → 实现 → 测试 → 上线」的完整链路，并把关键决策沉淀为仓库里的自动化测试、CI 检查与部署资产——**让代码自己讲述它的可靠性**。
 
 I focus on turning LLM applications and agent systems into **reliable products**: auditable routing, permissions, and side-effect boundaries; RAG answers that are traceable and evaluable; backend behavior proven by tests and metrics. I walk the full path — design → implementation → testing → shipping — and encode every key decision into automated tests, CI checks, and deployment assets, **so the code tells its own reliability story**.
+
+工作中我熟练运用 **Vibe Coding**——以 AI 编码助手为第一生产力，用自然语言驱动「设计 → 实现 → 测试 → 上线」的全流程，并深度使用 **Codex、Claude Code、Cursor、Kimi、DeepSeek** 等多模型组合，按任务特性灵活切换。我始终带着**产品化意识**做工程：不满足于「能跑」，而是追求可维护、可测试、可交付、真正被用户用起来。
+
+In practice I'm fluent in **Vibe Coding** — AI coding assistants as the primary driver across design → implementation → testing → shipping — working hands-on with a multi-model stack (**Codex, Claude Code, Cursor, Kimi, DeepSeek**) chosen per task. I bring a **product mindset** to engineering: code that merely runs isn't the bar; it must be maintainable, testable, shippable, and usable by real people.
 
 ---
 
@@ -55,16 +58,16 @@ I focus on turning LLM applications and agent systems into **reliable products**
 
 ---
 
-### 🐾 [Desktop-pet · 二次元桌宠](https://github.com/zhenkun26/Desktop-pet)
+### ⚡ [FlashFlow · 限量下单实验室](https://github.com/zhenkun26/FlashFlow)
 
-- **价值 · Value**：集成流式 AI 对话、会话存储、休息提醒与番茄钟的 macOS 桌宠应用。
-  A macOS desktop pet app with streaming AI chat, session storage, break reminders, and a Pomodoro timer.
-- **难点 · Challenges**：Electron 进程隔离与 IPC、SSE 解析/取消/超时、SQLite 迁移、safeStorage 密钥保护。
-  Electron process isolation & IPC, SSE parsing/cancellation/timeout, SQLite migration, and safeStorage key protection.
-- **落地 · Shipped**：[核心服务与测试](https://github.com/zhenkun26/Desktop-pet/tree/main/src/main/services)、[TypeScript 构建与测试 CI](https://github.com/zhenkun26/Desktop-pet/actions/workflows/ci.yml)、DMG 打包流程；美术资源仅用于非商业学习与交流。
-  [Core services & tests](https://github.com/zhenkun26/Desktop-pet/tree/main/src/main/services), [TypeScript build & test CI](https://github.com/zhenkun26/Desktop-pet/actions/workflows/ci.yml), and DMG packaging; art assets for non-commercial learning only.
+- **价值 · Value**：数据库优先的限量下单实验室——从同步 MySQL 正确性、Redis Lua 准入、RocketMQ 消息化，到事务性 Outbox 的可恢复发布，逐版本验证高并发限量下单的正确性边界。
+  A database-first limited-stock ordering laboratory — evolving from synchronous MySQL correctness, Redis Lua admission, and RocketMQ messaging to recoverable Transactional Outbox publication, proving the correctness boundaries of high-concurrency ordering release by release.
+- **难点 · Challenges**：四种库存策略对照（条件原子更新 / 悲观锁 / 乐观锁 / 不安全"先读后写"对照组）、10 条不变量、确定性竞态与幂等测试、真实 RocketMQ 故障矩阵与租约恢复、毒消息死信。
+  Four inventory strategies side by side (conditional atomic update / pessimistic lock / optimistic lock / unsafe read-then-write control), ten invariants, deterministic race and idempotency tests, a live RocketMQ fault matrix with lease-based recovery, and poison-message dead letters.
+- **落地 · Shipped**：[124 项自动化测试与逐版本验证报告](https://github.com/zhenkun26/FlashFlow/blob/main/docs/verification/current-status.md)——V4 干净修订通过完整套件与真实 RocketMQ 恢复矩阵，经 OpenSpec 严格校验与归档后发布；不做生产容量声明。
+  [124 tests with dated verification reports](https://github.com/zhenkun26/FlashFlow/blob/main/docs/verification/current-status.md) — the clean V4 revision passed the full suite and the live RocketMQ recovery matrix, then shipped after OpenSpec strict validation and archiving; no production-capacity claim is made.
 
-`Electron` `TypeScript` `DeepSeek API` `SSE` `SQLite` `safeStorage`
+`Java 21` `Spring Boot` `MySQL/InnoDB` `Redis Lua` `RocketMQ` `Transactional Outbox` `Testcontainers` `k6`
 
 ---
 
@@ -102,6 +105,7 @@ Permissions are enforced before execution, answers refuse on insufficient eviden
 | 📚 RAG 工程 · RAG Engineering | Milvus HNSW, BGE Reranker, source attribution, confidence-based decisions, retrieval fallback | [BusinessAgent](https://github.com/zhenkun26/BusinessAgent) |
 | ⚙️ AI 应用集成 · AI App Integration | Structured output, external data constraints, SSE streaming, retry & fallback | [TripMate](https://github.com/zhenkun26/TripMate) · [Desktop-pet](https://github.com/zhenkun26/Desktop-pet) |
 | 🐍 Python 后端 · Python Backend | FastAPI, Pydantic, JWT/RBAC, PostgreSQL, Redis, rate-limiting & idempotency | [BusinessAgent](https://github.com/zhenkun26/BusinessAgent) · [TripMate](https://github.com/zhenkun26/TripMate) |
+| 🚦 限量下单正确性 · Limited-Stock Ordering | MySQL/InnoDB, Redis Lua admission, four inventory strategies, ten invariants, Transactional Outbox, deterministic race tests, real-RocketMQ recovery matrix | [FlashFlow](https://github.com/zhenkun26/FlashFlow) |
 | 🛡️ 可靠性与交付 · Reliability & Delivery | Saga, task queues, audit logging, Metrics/Trace, CI, security scanning, containerization | [BusinessAgent](https://github.com/zhenkun26/BusinessAgent) |
 | ✅ 工程质量 · Engineering Quality | pytest, Vitest, mypy strict, ruff, contract drift detection, adversarial fixtures | [TripMate](https://github.com/zhenkun26/TripMate) · [auto-coding](https://github.com/zhenkun26/auto-coding) |
 
