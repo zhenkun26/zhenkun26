@@ -37,8 +37,8 @@ In practice I'm fluent in **Vibe Coding** — AI coding assistants as the primar
 
 ### 🏢 [BusinessAgent · 智多星](https://github.com/zhenkun26/BusinessAgent)
 
-- **价值 · Value**：面向企业知识问答、数据分析和受控业务操作的多 Agent 工作流系统——回答有据可查、操作有审批、执行有审计。已正式上线运营（GA），获得市场验证。
-  A multi-agent workflow system for enterprise knowledge Q&A, data analysis, and controlled operations — answers with sources, operations with approvals, execution with audit trails. Now in GA with real-world market validation.
+- **价值 · Value**：面向企业知识问答、数据分析和受控业务操作的多 Agent 工作流系统——回答有据可查、操作有审批、执行有审计。已在内部业务场景中落地并持续运行，核心链路经过真实数据与流程验证。
+  A multi-agent workflow system for enterprise knowledge Q&A, data analysis, and controlled operations — answers with sources, operations with approvals, execution with audit trails. Deployed and running in internal production environments, with core paths validated against real data and workflows.
 - **难点 · Challenges**：多 Agent 协作的落地难题——任务流转的显式编排、知识与数据双通道检索、高风险操作的审批与权限、跨环节失败的一致性补偿、故障时的优雅降级；生产对抗性审查修复 12 个漏洞（含 3 个 P0 级认证/凭证类）。
   Turning multi-agent orchestration into production — explicit workflow state machines, two-stage retrieval for knowledge and data, approvals and permissions for high-risk actions, consistent compensation when a step fails mid-chain, and graceful degradation; 12 vulnerabilities fixed in adversarial production review (3 P0 auth/credential class).
 - **落地 · Shipped**：[101 项自动化测试](https://github.com/zhenkun26/BusinessAgent/tree/main/enterprise-agent/tests)、[3 道 CI 安全门禁（gitleaks + pip-audit + Trivy）](https://github.com/zhenkun26/BusinessAgent/actions/workflows/ci.yml)、工单系统真实接入（幂等键 + Saga 补偿 + 审计回写，stub 沙箱验收 7/7）、模型分层（高频 qwen3.5:4b + 推理 DeepSeek，成本降低 40%+）、三级降级链（LLM/检索/Checkpointer）、k6 阶梯压测与备份恢复演练。
