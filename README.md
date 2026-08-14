@@ -110,6 +110,8 @@ In practice I'm fluent in **Vibe Coding** — AI coding assistants as the primar
   A Hermes ecosystem extension — configurable code review and hardening skill (5-dimension adversarial review), 57 tests (95% line coverage), standard-library-only dependency, with instance-level timeout tracking and high-entropy string detection.
 - **[daily-information](https://github.com/zhenkun26/daily-information)**：个人 AI 每日信息摘要管线——多源信号采集（GitHub / RSS / X）、去重与多维评分（相关性、新颖性、可信度）、LLM 策划与结构化输出验证、中文 Markdown 日报归档。四阶段管道设计（采集 → 候选 → 事件 → 发布），参考实现已跑通 Twitter 监控 + AI 摘要 + 飞书推送。
   A personal AI daily digest pipeline — multi-source signal collection (GitHub / RSS / X), deduplication with multi-dimensional scoring (relevance, novelty, credibility), LLM curation with structured output validation, and Chinese Markdown daily archives. Four-stage pipeline design (collect → candidate → event → publish), with a reference implementation running Twitter monitoring + AI summarization + Feishu push.
+- **DeepSeek Harness 插件设计落地 · DeepSeek Harness Plugin Design & Delivery**：近期跟进 DeepSeek Harness 插件生态的设计与落地，围绕 manifest、权限声明、Harness 兼容性检查、本地插件目录扫描与 Profile 生成，推进可复现、可审计的安装前校验流程。
+  Recently following through on the design and delivery of DeepSeek Harness plugins, focusing on manifests, permission declarations, Harness compatibility checks, local plugin catalog scanning, and profile generation to establish reproducible, auditable pre-install validation.
 
 ---
 
