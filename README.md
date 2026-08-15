@@ -27,6 +27,10 @@
 
 I focus on turning LLM applications and agent systems into **reliable products**: auditable routing, permissions, and side-effect boundaries; RAG answers that are traceable and evaluable; backend behavior proven by tests and metrics. I walk the full path — design → implementation → testing → shipping — and encode every key decision into automated tests, CI checks, and deployment assets, **so the code tells its own reliability story**.
 
+近期我持续探索 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 这一受到关注的开源 AI coding harness 项目，并将仓库理解、证据驱动分析与有界变更生命周期适配为 [RepoAtlas](https://github.com/zhenkun26/RepoAtlas) 插件，重点关注公开工具注册、bundle 加载、兼容性验证与默认只读的安全边界。
+
+Recently I've been following the fast-moving open-source [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) project and adapting repository understanding, evidence-backed analysis, and bounded change lifecycles into the [RepoAtlas](https://github.com/zhenkun26/RepoAtlas) plugin, with a focus on public tool registration, bundle loading, compatibility verification, and read-only-by-default safety boundaries.
+
 工作中我熟练运用 **Vibe Coding**——以 AI 编码助手为第一生产力，用自然语言驱动「设计 → 实现 → 测试 → 上线」的全流程，并深度使用 **Codex、Claude Code、Cursor、Kimi、DeepSeek** 等多模型组合，按任务特性灵活切换。我始终带着**产品化意识**做工程：不满足于「能跑」，而是追求可维护、可测试、可交付、真正被用户用起来。
 
 In practice I'm fluent in **Vibe Coding** — AI coding assistants as the primary driver across design → implementation → testing → shipping — working hands-on with a multi-model stack (**Codex, Claude Code, Cursor, Kimi, DeepSeek**) chosen per task. I bring a **product mindset** to engineering: code that merely runs isn't the bar; it must be maintainable, testable, shippable, and usable by real people.
@@ -87,19 +91,6 @@ In practice I'm fluent in **Vibe Coding** — AI coding assistants as the primar
 
 ---
 
-### ⚡ [FlashFlow · 闪电购](https://github.com/zhenkun26/FlashFlow)
-
-- **价值 · Value**：专注限量抢购正确性的工程实验——MySQL 始终是唯一可信的账本。从同步下单、Redis 抢购闸门、RocketMQ 消息化，到事务性 Outbox 可靠发布，每个版本都验证同一件事：抢得再猛，账也不会错。
-  A database-first flash-sale lab — MySQL is always the single source of truth. From synchronous ordering and Redis admission gates to RocketMQ messaging and transactional Outbox publication, each release proves one thing: under the heaviest rush, the books never break.
-- **难点 · Challenges**：抢购背后的真实并发难题——四种扣库存策略同台对比（含一个故意留的错误对照组）、10 条账目铁律、V4 事务性 Outbox（同一 MySQL 事务内持久化不可变信封，进程重启或 Broker 故障后恢复发布）、围栏对账（仅依据已提交的 MySQL 事实重建 Redis）、毒消息隔离与延迟过期消息加速结单。
-  The real concurrency puzzles behind flash sales — four inventory strategies compared head-to-head (including a deliberately unsafe control), ten hard bookkeeping rules, V4 transactional Outbox (immutable envelope persisted in the same MySQL transaction, recovered after process restart or Broker failure), fenced reconciliation (rebuilding Redis from committed MySQL facts only), poison-message isolation and delayed-expiry messages to accelerate order finalization.
-- **落地 · Shipped**：[124 项自动化测试与 5 道正确性门禁](https://github.com/zhenkun26/FlashFlow/blob/main/docs/verification/current-status.md)——单元级状态机检查、Testcontainers 迁移与约束、确定性竞态与幂等、超额需求不变量、k6 HTTP 特征化测试；如实标注实验室定位，不做生产容量承诺。
-  [124 automated tests with 5 correctness gates](https://github.com/zhenkun26/FlashFlow/blob/main/docs/verification/current-status.md) — unit-level state machine checks, Testcontainers migration and constraints, deterministic race and idempotency tests, over-demand invariant suite, k6 HTTP characterization tests; honestly scoped as a laboratory, with no production-capacity claims.
-
-`Java 21` `Spring Boot` `MySQL/InnoDB` `Redis Lua` `RocketMQ` `Transactional Outbox` `Testcontainers` `k6`
-
----
-
 ## 🧰 能力与落地 · Capabilities Delivered
 
 | 能力 · Capability | 技术与设计 · Tech & Design | 项目落地 · Shipped |
@@ -109,7 +100,6 @@ In practice I'm fluent in **Vibe Coding** — AI coding assistants as the primar
 | 🖥️ 桌面端 AI · Desktop AI | Electron, node:sqlite (WAL), SSE streaming, safeStorage encryption, XSS sanitization, database-as-truth architecture | [Desktop-pet](https://github.com/zhenkun26/Desktop-pet) |
 | ⚙️ AI 应用集成 · AI App Integration | Structured output, external data constraints, SSE streaming, multi-model adapter, retry & fallback | [TripMate](https://github.com/zhenkun26/TripMate) · [Desktop-pet](https://github.com/zhenkun26/Desktop-pet) |
 | 🐍 Python 后端 · Python Backend | FastAPI, Pydantic, JWT/RBAC, PostgreSQL, Redis, rate-limiting & idempotency, structured JSON logging | [BusinessAgent](https://github.com/zhenkun26/BusinessAgent) · [TripMate](https://github.com/zhenkun26/TripMate) · [Insight](https://github.com/zhenkun26/Insight) |
-| 🚦 限量下单正确性 · Limited-Stock Ordering | MySQL/InnoDB, Redis Lua admission, four inventory strategies, ten invariants, Transactional Outbox, fenced reconciliation, deterministic race tests | [FlashFlow](https://github.com/zhenkun26/FlashFlow) |
 | 🛡️ 可靠性与交付 · Reliability & Delivery | Saga, task queues, audit logging, Metrics/Trace, CI, security scanning, containerization, degradation chains | [BusinessAgent](https://github.com/zhenkun26/BusinessAgent) · [Desktop-pet](https://github.com/zhenkun26/Desktop-pet) |
 | ✅ 工程质量 · Engineering Quality | pytest, Vitest, mypy strict, ruff, contract drift detection, adversarial fixtures, multi-arch Docker, gitleaks, Trivy | [TripMate](https://github.com/zhenkun26/TripMate) · [auto-coding](https://github.com/zhenkun26/auto-coding) · [Insight](https://github.com/zhenkun26/Insight) |
 
