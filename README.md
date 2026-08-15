@@ -35,6 +35,19 @@ In practice I'm fluent in **Vibe Coding** — AI coding assistants as the primar
 
 ## 🚀 作品精选 · Selected Work
 
+### 🧭 [RepoAtlas · 代码星图](https://github.com/zhenkun26/RepoAtlas)
+
+- **价值 · Value**：近期持续探索 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 这一受到关注的开源 AI coding harness 项目，并完成 RepoAtlas 适配插件——面向陌生代码库提供安全优先、证据驱动的分析与有界变更生命周期；默认只读，受控动作显式审批。
+  Recently exploring the fast-moving open-source [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) ecosystem and building RepoAtlas as an adapted plugin — safety-first, evidence-backed repository analysis and a bounded change lifecycle for unfamiliar codebases; read-only by default, with explicit approval for controlled actions.
+- **难点 · Challenges**：将代码库接手、证据与推断区分、Goal/approval policy gate、ReAct 分析、补丁审阅与验证串成可审计的生命周期，同时保持与 Harness 核心解耦，不扩大 Shell、网络、依赖安装或远程写入权限。
+  Turning repository onboarding, evidence-versus-inference boundaries, Goal/approval policy gates, ReAct analysis, patch review, and verification into an auditable lifecycle while keeping the plugin decoupled from Harness core and avoiding broader Shell, network, dependency-installation, or remote-write permissions.
+- **落地 · Shipped**：完成公开 `ctx.tools.register` 接入、`repo-atlas/harness` bundle 加载与 pinned Harness revision 的真实兼容性 smoke，采用 source-first 方式发布 `0.1.1`。
+  Delivered public `ctx.tools.register` integration, `repo-atlas/harness` bundle loading, and real compatibility smoke coverage against a pinned Harness revision; released `0.1.1` as a source-first plugin bundle.
+
+`TypeScript` `Node.js` `DeepSeek Harness` `Evidence-backed Analysis` `Sandbox-aware Lifecycle`
+
+---
+
 ### 🏢 [BusinessAgent · 智多星](https://github.com/zhenkun26/BusinessAgent)
 
 - **价值 · Value**：面向企业知识问答、数据分析和受控业务操作的多 Agent 工作流系统——回答有据可查、操作有审批、执行有审计。已在内部业务场景中落地并持续运行，核心链路经过真实数据与流程验证。
