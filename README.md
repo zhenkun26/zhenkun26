@@ -27,9 +27,9 @@
 
 I focus on turning LLM applications and agent systems into **reliable products**: auditable routing, permissions, and side-effect boundaries; RAG answers that are traceable and evaluable; backend behavior proven by tests and metrics. I walk the full path — design → implementation → testing → shipping — and encode every key decision into automated tests, CI checks, and deployment assets, **so the code tells its own reliability story**.
 
-近期我持续探索 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 这一受到关注的开源 AI coding harness 项目，并将仓库理解、证据驱动分析与有界变更生命周期适配为 [RepoAtlas](https://github.com/zhenkun26/RepoAtlas) 插件，重点关注公开工具注册、bundle 加载、兼容性验证与默认只读的安全边界。
+近期我持续探索 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 这一受到关注的开源 AI coding harness 项目，并将仓库理解、证据驱动分析与有界变更生命周期适配为 [dsh-Repo-Atlas · RepoAtlas](https://github.com/zhenkun26/dsh-repo-atlas) 插件，重点关注公开工具注册、bundle 加载、兼容性验证与默认只读的安全边界。
 
-Recently I've been following the fast-moving open-source [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) project and adapting repository understanding, evidence-backed analysis, and bounded change lifecycles into the [RepoAtlas](https://github.com/zhenkun26/RepoAtlas) plugin, with a focus on public tool registration, bundle loading, compatibility verification, and read-only-by-default safety boundaries.
+Recently I've been following the fast-moving open-source [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) project and adapting repository understanding, evidence-backed analysis, and bounded change lifecycles into the [dsh-Repo-Atlas · RepoAtlas](https://github.com/zhenkun26/dsh-repo-atlas) plugin, with a focus on public tool registration, bundle loading, compatibility verification, and read-only-by-default safety boundaries.
 
 工作中我熟练运用 **Vibe Coding**——以 AI 编码助手为第一生产力，用自然语言驱动「设计 → 实现 → 测试 → 上线」的全流程，并深度使用 **Codex、Claude Code、Cursor、Kimi、DeepSeek** 等多模型组合，按任务特性灵活切换。我始终带着**产品化意识**做工程：不满足于「能跑」，而是追求可维护、可测试、可交付、真正被用户用起来。
 
@@ -39,14 +39,14 @@ In practice I'm fluent in **Vibe Coding** — AI coding assistants as the primar
 
 ## 🚀 作品精选 · Selected Work
 
-### 🧭 [RepoAtlas · 代码星图](https://github.com/zhenkun26/RepoAtlas)
+### 🧭 [dsh-Repo-Atlas · RepoAtlas 代码星图](https://github.com/zhenkun26/dsh-repo-atlas)
 
-- **价值 · Value**：近期持续探索 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 这一受到关注的开源 AI coding harness 项目，并完成 RepoAtlas 适配插件——面向陌生代码库提供安全优先、证据驱动的分析与有界变更生命周期；默认只读，受控动作显式审批。
-  Recently exploring the fast-moving open-source [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) ecosystem and building RepoAtlas as an adapted plugin — safety-first, evidence-backed repository analysis and a bounded change lifecycle for unfamiliar codebases; read-only by default, with explicit approval for controlled actions.
+- **价值 · Value**：近期持续探索 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 这一受到关注的开源 AI coding harness 项目，并完成 dsh-Repo-Atlas 适配插件——面向陌生代码库提供安全优先、证据驱动的分析与有界变更生命周期；默认只读，受控动作显式审批。
+  Recently exploring the fast-moving open-source [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) ecosystem and building dsh-Repo-Atlas as an adapted plugin — safety-first, evidence-backed repository analysis and a bounded change lifecycle for unfamiliar codebases; read-only by default, with explicit approval for controlled actions.
 - **难点 · Challenges**：将代码库接手、证据与推断区分、Goal/approval policy gate、ReAct 分析、补丁审阅与验证串成可审计的生命周期，同时保持与 Harness 核心解耦，不扩大 Shell、网络、依赖安装或远程写入权限。
   Turning repository onboarding, evidence-versus-inference boundaries, Goal/approval policy gates, ReAct analysis, patch review, and verification into an auditable lifecycle while keeping the plugin decoupled from Harness core and avoiding broader Shell, network, dependency-installation, or remote-write permissions.
-- **落地 · Shipped**：完成公开 `ctx.tools.register` 接入、`repo-atlas/harness` bundle 加载与 pinned Harness revision 的真实兼容性 smoke，采用 source-first 方式发布 `0.1.1`。
-  Delivered public `ctx.tools.register` integration, `repo-atlas/harness` bundle loading, and real compatibility smoke coverage against a pinned Harness revision; released `0.1.1` as a source-first plugin bundle.
+- **落地 · Shipped**：完成公开 `ctx.tools.register` 接入、`dsh-repo-atlas/harness` bundle 加载与 pinned Harness revision 的真实兼容性 smoke，采用 source-first 方式发布 `0.1.1`。
+  Delivered public `ctx.tools.register` integration, `dsh-repo-atlas/harness` bundle loading, and real compatibility smoke coverage against a pinned Harness revision; released `0.1.1` as a source-first plugin bundle.
 
 `TypeScript` `Node.js` `DeepSeek Harness` `Evidence-backed Analysis` `Sandbox-aware Lifecycle`
 
@@ -113,8 +113,8 @@ In practice I'm fluent in **Vibe Coding** — AI coding assistants as the primar
   A Hermes ecosystem extension — configurable code review and hardening skill (5-dimension adversarial review), 57 tests (95% line coverage), standard-library-only dependency, with instance-level timeout tracking and high-entropy string detection.
 - **[daily-information](https://github.com/zhenkun26/daily-information)**：个人 AI 每日信息摘要管线——多源信号采集（GitHub / RSS / X）、去重与多维评分（相关性、新颖性、可信度）、LLM 策划与结构化输出验证、中文 Markdown 日报归档。四阶段管道设计（采集 → 候选 → 事件 → 发布），参考实现已跑通 Twitter 监控 + AI 摘要 + 飞书推送。
   A personal AI daily digest pipeline — multi-source signal collection (GitHub / RSS / X), deduplication with multi-dimensional scoring (relevance, novelty, credibility), LLM curation with structured output validation, and Chinese Markdown daily archives. Four-stage pipeline design (collect → candidate → event → publish), with a reference implementation running Twitter monitoring + AI summarization + Feishu push.
-- **[RepoAtlas · 代码星图](https://github.com/zhenkun26/RepoAtlas)**：DeepSeek Harness 插件设计落地——近期跟进 DeepSeek Harness 插件生态的设计与落地，围绕 manifest、权限声明、Harness 兼容性检查、本地插件目录扫描与 Profile 生成，推进可复现、可审计的安装前校验流程。
-  RepoAtlas · DeepSeek Harness plugin design and delivery — following the ecosystem with a focus on manifests, permission declarations, Harness compatibility checks, local plugin catalog scanning, and profile generation to establish reproducible, auditable pre-install validation.
+- **[dsh-Repo-Atlas · RepoAtlas](https://github.com/zhenkun26/dsh-repo-atlas)**：DeepSeek Harness 插件设计落地——围绕陌生代码库接手、证据驱动分析、公开工具注册、bundle 加载与 pinned revision 兼容性验证，推进默认只读、可审计的变更提案流程。
+  dsh-Repo-Atlas · DeepSeek Harness plugin design and delivery — repository onboarding, evidence-backed analysis, public tool registration, bundle loading, and pinned-revision compatibility verification, shaping a read-only-by-default and auditable change-proposal lifecycle.
 
 ---
 
