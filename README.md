@@ -21,7 +21,7 @@
 
 I build AI applications and Python backends. Lately, I've been working on enterprise knowledge assistants, meteorological document Q&A, and tools that help with travel planning and reading unfamiliar code.
 
-I also tinker with macOS tools for everyday use. I write about projects, things I learn, and problems I run into on my [blog](https://zhenkun26.github.io/Zhenkun-blog-site/).
+I also tinker with macOS tools for everyday use. My [blog](https://zhenkun26.github.io/Zhenkun-blog-site/) is still under construction. I'll use it to share project notes, things I learn, and problems I run into.
 
 ## 🚀 Selected Projects
 
@@ -65,4 +65,4 @@ I also tinker with macOS tools for everyday use. I write about projects, things 
 
 Open to **AI application engineering / Python backend development** opportunities. Happy to talk about projects, too.
 
-[Blog](https://zhenkun26.github.io/Zhenkun-blog-site/) · [Email](mailto:zzk26personal@163.com) · [More repositories](https://github.com/zhenkun26?tab=repositories)
+[Blog (under construction)](https://zhenkun26.github.io/Zhenkun-blog-site/) · [Email](mailto:zzk26personal@163.com) · [More repositories](https://github.com/zhenkun26?tab=repositories)

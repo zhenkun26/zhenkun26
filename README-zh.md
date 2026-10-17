@@ -21,7 +21,7 @@
 
 我主要做 AI 应用和 Python 后端。最近在做企业知识助手和气象资料问答，也在尝试让 AI 更方便地读代码、规划旅行。
 
-平时也会折腾 macOS 上的小工具。项目里学到的东西、遇到的问题，会慢慢整理到[博客](https://zhenkun26.github.io/Zhenkun-blog-site/)里。
+平时也会折腾 macOS 上的小工具。[博客](https://zhenkun26.github.io/Zhenkun-blog-site/)还在建设中，之后会把项目里学到的东西、遇到的问题慢慢整理进去。
 
 ## 🚀 代表作品
 
@@ -65,4 +65,4 @@
 
 正在寻找 **AI 应用开发 / Python 后端**相关机会，也欢迎交流项目想法。
 
-[博客](https://zhenkun26.github.io/Zhenkun-blog-site/) · [邮件](mailto:zzk26personal@163.com) · [更多仓库](https://github.com/zhenkun26?tab=repositories)
+[博客（建设中）](https://zhenkun26.github.io/Zhenkun-blog-site/) · [邮件](mailto:zzk26personal@163.com) · [更多仓库](https://github.com/zhenkun26?tab=repositories)
