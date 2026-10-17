@@ -1,27 +1,68 @@
-# 你好，我是 Zhenkun 👋
+<div align="center">
 
-我主要做 **AI 应用和 Python 后端**，也会折腾 macOS 上的小工具。
+<p><strong>English</strong> | <a href="README-zh.md">简体中文</a></p>
 
-最近在做企业知识助手和气象资料问答，也在尝试让 AI 更方便地读代码、规划旅行。这里挑了几件作品，欢迎点进去看看。
+# 👋 Hi, I'm Zhenkun
 
-## 我做的一些东西
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=600&amp;size=22&amp;pause=1200&amp;color=58A6FF&amp;center=true&amp;vCenter=true&amp;width=760&amp;lines=Building+AI+apps+for+everyday+tasks;Knowledge+assistants+and+document+Q%26A;Travel+planners+and+Mac+tools" alt="AI apps, knowledge assistants, document Q&A, travel planners and Mac tools" width="760">
 
-| 作品 | 用来做什么 |
-| --- | --- |
-| [**智多星**](https://github.com/zhenkun26/BusinessAgent) | 把查制度、看数据和业务操作放进同一个对话流程，目前用样例数据和模拟工具演示。 |
-| [**洞察者**](https://github.com/zhenkun26/Insight) | 导入气象业务资料，查找相关段落，也能让本地 AI 带着出处回答问题。 |
-| [**TripMate**](https://github.com/zhenkun26/TripMate) | 输入目的地、日期和偏好，生成包含每日安排、预算估算、天气和地图的旅行计划。 |
-| [**代码星图**](https://github.com/zhenkun26/dsh-repo-atlas) | 帮 AI 编码助手读懂陌生代码库，找到相关文件和改动可能影响的地方，还在实验中。 |
+**AI Applications · Python Backend · Everyday Tools**
 
-## 最近还在折腾
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&amp;logo=fastapi&amp;logoColor=white" alt="FastAPI">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&amp;logo=typescript&amp;logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&amp;logo=docker&amp;logoColor=white" alt="Docker">
+</p>
 
-- [**BarTidy**](https://github.com/zhenkun26/BarTidy)：给自己用的 macOS 菜单栏收纳盒，基于 [Thaw](https://github.com/thaw-app/Thaw) 改造，鼠标悬停就能展开。
-- [**两仪 · EcholME**](https://github.com/zhenkun26/LiangYi-EcholME)：在输入时显示中英文释义的输入法实验，基于[鼠须管](https://github.com/rime/squirrel)改造，还在打磨。
+</div>
 
-## 记录与联系
+## 🧭 About Me
 
-我会在[个人博客](https://zhenkun26.github.io/Zhenkun-blog-site/)记录项目实践、学习过程和遇到的问题。代码之外的想法，也留一点位置慢慢写。
+I build AI applications and Python backends. Lately, I've been working on enterprise knowledge assistants, meteorological document Q&A, and tools that help with travel planning and reading unfamiliar code.
 
-正在寻找 **AI 应用开发 / Python 后端**相关机会，也欢迎交流项目想法。
+I also tinker with macOS tools for everyday use. I write about projects, things I learn, and problems I run into on my [blog](https://zhenkun26.github.io/Zhenkun-blog-site/).
 
-[博客](https://zhenkun26.github.io/Zhenkun-blog-site/) · [邮件](mailto:zzk26personal@163.com) · [更多仓库](https://github.com/zhenkun26?tab=repositories)
+## 🚀 Selected Projects
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/zhenkun26/BusinessAgent">🏢 BusinessAgent</a></h3>
+      A conversational assistant for company policies, data analysis, and business tasks. Currently demonstrated with sample data and mock tools.
+      <br><br>
+      <code>Python</code> <code>LangGraph</code>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/zhenkun26/Insight">📚 Insight</a></h3>
+      Search meteorological documents and ask a local AI questions, with references that help you find the original passages.
+      <br><br>
+      <code>Python</code> <code>Ollama</code>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/zhenkun26/TripMate">🧳 TripMate</a></h3>
+      Turn a destination, dates, and preferences into a travel plan with daily itineraries, budget estimates, weather, and maps.
+      <br><br>
+      <code>FastAPI</code> <code>Vue</code>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/zhenkun26/dsh-repo-atlas">🧭 RepoAtlas</a> <sup>Experimental</sup></h3>
+      Help a DeepSeek Harness coding assistant explore an unfamiliar repository, find relevant files, and inspect potential change impact.
+      <br><br>
+      <code>TypeScript</code> <code>DeepSeek Harness</code>
+    </td>
+  </tr>
+</table>
+
+## 🛠️ Also Tinkering With
+
+- **[BarTidy](https://github.com/zhenkun26/BarTidy)** — a macOS menu bar tray adapted from [Thaw](https://github.com/thaw-app/Thaw) for my own use. Hover to expand, move away to tuck it back.
+- **[LiangYi / EcholME](https://github.com/zhenkun26/LiangYi-EcholME)** — an experimental input method derived from [Squirrel](https://github.com/rime/squirrel), showing Chinese and English dictionary glosses while typing. Still in development.
+
+## 📫 Let's Talk
+
+Open to **AI application engineering / Python backend development** opportunities. Happy to talk about projects, too.
+
+[Blog](https://zhenkun26.github.io/Zhenkun-blog-site/) · [Email](mailto:zzk26personal@163.com) · [More repositories](https://github.com/zhenkun26?tab=repositories)
