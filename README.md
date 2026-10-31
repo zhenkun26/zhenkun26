@@ -4,9 +4,9 @@
 
 # 👋 Hi, I'm Zhenkun
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=600&amp;size=22&amp;pause=1200&amp;color=58A6FF&amp;center=true&amp;vCenter=true&amp;width=760&amp;lines=Building+AI+apps+for+everyday+tasks;Knowledge+assistants+and+document+Q%26A;Travel+planners+and+Mac+tools" alt="AI apps, knowledge assistants, document Q&A, travel planners and Mac tools" width="760">
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=600&amp;size=22&amp;pause=1200&amp;color=58A6FF&amp;center=true&amp;vCenter=true&amp;width=760&amp;lines=Building+AI+apps+for+everyday+tasks;Knowledge+assistants+and+code+review;Agent+workflows+and+everyday+tools" alt="AI apps, knowledge assistants, code review and everyday workflows" width="760">
 
-**AI Applications · Python Backend · Everyday Tools**
+**AI Applications · Code Review · Python Backend**
 
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white" alt="Python">
@@ -19,9 +19,9 @@
 
 ## 🧭 About Me
 
-I build AI applications and Python backends. Lately, I've been working on enterprise knowledge assistants, meteorological document Q&A, and tools that help with travel planning and code review.
+I build AI applications and Python backends. My recent work centers on enterprise knowledge assistants and code-review tools: finding answers in documents, working through business requests, and checking code changes against the original task.
 
-I also tinker with macOS tools for everyday use. My [blog](https://zhenkun26.github.io/Zhenkun-blog-site/) is still under construction. I'll use it to share project notes, things I learn, and problems I run into.
+I also write workflow guidance for coding assistants, put together weather briefs, and adapt Mac tools for my own use. My [blog](https://zhenkun26.github.io/Zhenkun-blog-site/) is still under construction; I'll share project notes and things I learn along the way.
 
 ## 🚀 Selected Projects
 
@@ -34,32 +34,33 @@ I also tinker with macOS tools for everyday use. My [blog](https://zhenkun26.git
       <code>Python</code> <code>LangGraph</code>
     </td>
     <td width="50%" valign="top">
+      <h3><a href="https://github.com/zhenkun26/Code-Inspection">🔎 Code-Inspection</a></h3>
+      A code-review Skill for AI coding assistants. Compare changes with the original request, keep track of issues and check results, and follow up on fixes.
+      <br><br>
+      <code>Agent Skill</code> <code>Code Review</code>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
       <h3><a href="https://github.com/zhenkun26/Insight">📚 Insight</a></h3>
       Search meteorological documents and ask a local AI questions, with references that help you find the original passages.
       <br><br>
       <code>Python</code> <code>Ollama</code>
     </td>
-  </tr>
-  <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/zhenkun26/TripMate">🧳 TripMate</a></h3>
       Turn a destination, dates, and preferences into a travel plan with daily itineraries, budget estimates, weather, and maps.
       <br><br>
       <code>FastAPI</code> <code>Vue</code>
     </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/zhenkun26/Code-Inspection">🔎 Code-Inspection</a></h3>
-      A code-review Skill for AI coding assistants. Review changes against the original requirements, organize findings and verification evidence, and follow up on fixes and rechecks.
-      <br><br>
-      <code>Agent Skill</code> <code>Code Review</code>
-    </td>
   </tr>
 </table>
 
 ## 🛠️ Also Tinkering With
 
+- **[auto-coding](https://github.com/zhenkun26/auto-coding)** — workflow guidance for taking a coding assistant from a request through implementation and checks, with room to choose tools that fit the job.
+- **[Atmos-n8n](https://github.com/zhenkun26/Atmos-n8n)** — n8n workflows that turn Nanjing and Wuhu forecasts into an English email brief, with optional AI editing.
 - **[BarTidy](https://github.com/zhenkun26/BarTidy)** — a macOS menu bar tray adapted from [Thaw](https://github.com/thaw-app/Thaw) for my own use. Hover to expand, move away to tuck it back.
-- **[LiangYi / EcholME](https://github.com/zhenkun26/LiangYi-EcholME)** — an experimental input method derived from [Squirrel](https://github.com/rime/squirrel), showing Chinese and English dictionary glosses while typing. Still in development.
 
 ## 📫 Let's Talk
 

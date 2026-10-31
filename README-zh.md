@@ -4,9 +4,9 @@
 
 # 👋 你好，我是 Zhenkun
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=600&amp;size=22&amp;pause=1200&amp;color=58A6FF&amp;center=true&amp;vCenter=true&amp;width=760&amp;lines=Building+AI+apps+for+everyday+tasks;Knowledge+assistants+and+document+Q%26A;Travel+planners+and+Mac+tools" alt="AI 应用、知识助手、文档问答、旅行规划与 Mac 小工具" width="760">
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=600&amp;size=22&amp;pause=1200&amp;color=58A6FF&amp;center=true&amp;vCenter=true&amp;width=760&amp;lines=Building+AI+apps+for+everyday+tasks;Knowledge+assistants+and+code+review;Agent+workflows+and+everyday+tools" alt="AI 应用、知识助手、代码审查与日常工作流" width="760">
 
-**AI 应用 · Python 后端 · 日常小工具**
+**AI 应用 · 代码审查 · Python 后端**
 
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white" alt="Python">
@@ -19,9 +19,9 @@
 
 ## 🧭 关于我
 
-我主要做 AI 应用和 Python 后端。最近在做企业知识助手和气象资料问答，也在尝试让 AI 帮忙审查代码、规划旅行。
+我主要做 AI 应用和 Python 后端，最近的重点是企业知识助手和代码审查工具：从资料里找答案、用对话处理业务请求，也让 AI 编程助手对照原始需求检查改动。
 
-平时也会折腾 macOS 上的小工具。[博客](https://zhenkun26.github.io/Zhenkun-blog-site/)还在建设中，之后会把项目里学到的东西、遇到的问题慢慢整理进去。
+除此之外，也在整理 AI 编程助手的使用方法、做天气简报工作流，偶尔改改自己用的 Mac 工具。[博客](https://zhenkun26.github.io/Zhenkun-blog-site/)还在建设中，之后会慢慢写下项目里的尝试和收获。
 
 ## 🚀 代表作品
 
@@ -34,32 +34,33 @@
       <code>Python</code> <code>LangGraph</code>
     </td>
     <td width="50%" valign="top">
+      <h3><a href="https://github.com/zhenkun26/Code-Inspection">🔎 Code-Inspection</a></h3>
+      给 AI 编程助手用的代码审查 Skill。对照原始需求检查改动，记录问题和检查结果，跟进修复与复查。
+      <br><br>
+      <code>Agent Skill</code> <code>Code Review</code>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
       <h3><a href="https://github.com/zhenkun26/Insight">📚 洞察者</a></h3>
       导入气象业务资料，查找相关段落，也能让本地 AI 带着出处回答问题，方便回到原文核对。
       <br><br>
       <code>Python</code> <code>Ollama</code>
     </td>
-  </tr>
-  <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/zhenkun26/TripMate">🧳 TripMate</a></h3>
       输入目的地、日期和偏好，生成包含每日安排、预算估算、天气和地图的旅行计划。
       <br><br>
       <code>FastAPI</code> <code>Vue</code>
     </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/zhenkun26/Code-Inspection">🔎 Code-Inspection</a></h3>
-      给 AI 编程助手用的代码审查 Skill。对照原始需求检查改动，整理问题和验证依据，跟进修复与复查。
-      <br><br>
-      <code>Agent Skill</code> <code>Code Review</code>
-    </td>
   </tr>
 </table>
 
 ## 🛠️ 最近还在折腾
 
+- **[auto-coding](https://github.com/zhenkun26/auto-coding)**：把需求、实现、检查和交付串起来的一套 AI 编程协作方法，给助手留出选择工具和做法的空间。
+- **[Atmos-n8n](https://github.com/zhenkun26/Atmos-n8n)**：用 n8n 把南京、芜湖的天气预报整理成英文邮件简报，可选用 AI 润色摘要。
 - **[BarTidy](https://github.com/zhenkun26/BarTidy)**：给自己用的 macOS 菜单栏收纳盒，基于 [Thaw](https://github.com/thaw-app/Thaw) 改造。鼠标悬停就展开，移开就收回。
-- **[两仪 / EcholME](https://github.com/zhenkun26/LiangYi-EcholME)**：在输入时显示中英文词典释义的输入法实验，基于[鼠须管](https://github.com/rime/squirrel)改造，还在打磨。
 
 ## 📫 聊聊与联系
 
