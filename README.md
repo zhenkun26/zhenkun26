@@ -19,7 +19,7 @@
 
 ## 🧭 About Me
 
-I build AI applications and Python backends. Lately, I've been working on enterprise knowledge assistants, meteorological document Q&A, and tools that help with travel planning and reading unfamiliar code.
+I build AI applications and Python backends. Lately, I've been working on enterprise knowledge assistants, meteorological document Q&A, and tools that help with travel planning and code review.
 
 I also tinker with macOS tools for everyday use. My [blog](https://zhenkun26.github.io/Zhenkun-blog-site/) is still under construction. I'll use it to share project notes, things I learn, and problems I run into.
 
@@ -48,10 +48,10 @@ I also tinker with macOS tools for everyday use. My [blog](https://zhenkun26.git
       <code>FastAPI</code> <code>Vue</code>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/zhenkun26/dsh-repo-atlas">🧭 RepoAtlas</a> <sup>Experimental</sup></h3>
-      Help a DeepSeek Harness coding assistant explore an unfamiliar repository, find relevant files, and inspect potential change impact.
+      <h3><a href="https://github.com/zhenkun26/Code-Inspection">🔎 Code-Inspection</a></h3>
+      A code-review Skill for AI coding assistants. Review changes against the original requirements, organize findings and verification evidence, and follow up on fixes and rechecks.
       <br><br>
-      <code>TypeScript</code> <code>DeepSeek Harness</code>
+      <code>Agent Skill</code> <code>Code Review</code>
     </td>
   </tr>
 </table>

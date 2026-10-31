@@ -19,7 +19,7 @@
 
 ## 🧭 关于我
 
-我主要做 AI 应用和 Python 后端。最近在做企业知识助手和气象资料问答，也在尝试让 AI 更方便地读代码、规划旅行。
+我主要做 AI 应用和 Python 后端。最近在做企业知识助手和气象资料问答，也在尝试让 AI 帮忙审查代码、规划旅行。
 
 平时也会折腾 macOS 上的小工具。[博客](https://zhenkun26.github.io/Zhenkun-blog-site/)还在建设中，之后会把项目里学到的东西、遇到的问题慢慢整理进去。
 
@@ -48,10 +48,10 @@
       <code>FastAPI</code> <code>Vue</code>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/zhenkun26/dsh-repo-atlas">🧭 代码星图</a> <sup>实验中</sup></h3>
-      帮 DeepSeek Harness 编码助手认识陌生代码库，找到相关文件和改动可能影响的地方。
+      <h3><a href="https://github.com/zhenkun26/Code-Inspection">🔎 Code-Inspection</a></h3>
+      给 AI 编程助手用的代码审查 Skill。对照原始需求检查改动，整理问题和验证依据，跟进修复与复查。
       <br><br>
-      <code>TypeScript</code> <code>DeepSeek Harness</code>
+      <code>Agent Skill</code> <code>Code Review</code>
     </td>
   </tr>
 </table>
