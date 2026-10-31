@@ -17,6 +17,10 @@
 
 我主要做 AI 应用开发和 Python 后端，关注知识检索与业务工作流。也开发面向 AI 辅助编程的验证与审查工具。
 
+<p align="center">
+  <img src="assets/profile-typing.svg" alt="知识助手、业务工作流与基于证据的代码审查" width="760">
+</p>
+
 ## 🚀 代表作品
 
 <table>
