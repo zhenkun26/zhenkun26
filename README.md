@@ -15,10 +15,12 @@
 
 </div>
 
+## 🧭 About Me
+
 I build AI applications and Python backends for knowledge retrieval and business workflows. I also develop tools for evidence-based AI-assisted coding.
 
 <p align="center">
-  <img src="assets/profile-typing.svg" alt="Knowledge assistants, business workflows and evidence-based code review" width="760">
+  <img src="assets/profile-typing.svg" alt="Turning ideas into useful tools, making everyday work easier, and building, testing and improving" width="760">
 </p>
 
 ## 🚀 Selected Projects
