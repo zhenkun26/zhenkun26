@@ -4,9 +4,7 @@
 
 # 👋 Hi, I'm Zhenkun
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=600&amp;size=22&amp;pause=1200&amp;color=58A6FF&amp;center=true&amp;vCenter=true&amp;width=760&amp;lines=Building+AI+apps+for+everyday+tasks;Knowledge+assistants+and+code+review;Coding+assistants+and+everyday+tools" alt="AI apps, knowledge assistants, code review and everyday tools" width="760">
-
-**AI Applications · Code Review · Python Backend**
+**AI Applications · Python Backend**
 
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white" alt="Python">
@@ -17,11 +15,7 @@
 
 </div>
 
-## 🧭 About Me
-
-I build AI applications and Python backends. My recent work centers on enterprise knowledge assistants and code-review tools: finding answers in documents, working through business requests, and checking code changes against the original task.
-
-I also write workflow guidance for coding assistants and adapt Mac tools for my own use. My [blog](https://zhenkun26.github.io/Zhenkun-blog-site/) is still under construction; I'll share project notes and things I learn along the way.
+I build AI applications and Python backends for knowledge retrieval and business workflows. I also develop tools for evidence-based AI-assisted coding.
 
 ## 🚀 Selected Projects
 
@@ -29,40 +23,48 @@ I also write workflow guidance for coding assistants and adapt Mac tools for my 
   <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/zhenkun26/BusinessAgent">🏢 BusinessAgent</a></h3>
-      A conversational assistant for company policies, data analysis, and business tasks. Currently demonstrated with sample data and mock tools.
+      An assistant for enterprise knowledge and business tasks, with role-based access and human approvals. Demonstrated with sample data and mock tools.
       <br><br>
       <code>Python</code> <code>LangGraph</code>
+      <br><br>
+      <a href="https://github.com/zhenkun26/BusinessAgent/blob/main/README-en.md#architecture">Architecture</a>
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/zhenkun26/Code-Inspection">🔎 Code-Inspection</a></h3>
-      A code-review Skill for AI coding assistants. Compare changes with the original request, keep track of issues and check results, and follow up on fixes.
+      A code-review Skill for AI coding assistants. Review changes against requirements, record findings and verification results, and track fixes through rechecks.
       <br><br>
       <code>Agent Skill</code> <code>Code Review</code>
+      <br><br>
+      <a href="https://github.com/zhenkun26/Code-Inspection/blob/main/docs/local-walkthrough.md">Offline walkthrough</a>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/zhenkun26/Insight">📚 Insight</a></h3>
-      Search meteorological documents and ask a local AI questions, with references that help you find the original passages.
+      Local-first search and Q&A for meteorological documents. Combines keyword and vector retrieval, returns sources, and refuses answers when no passage passes the retrieval threshold.
       <br><br>
       <code>Python</code> <code>Ollama</code>
+      <br><br>
+      <a href="https://github.com/zhenkun26/Insight/blob/main/README-en.md#quick-start">Quick start</a>
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/zhenkun26/TripMate">🧳 TripMate</a></h3>
-      Turn a destination, dates, and preferences into a travel plan with daily itineraries, budget estimates, weather, and maps.
+      Turn a destination, dates, and preferences into an itinerary with budget estimates, weather, and maps. Uses Amap data and validates structured plans.
       <br><br>
       <code>FastAPI</code> <code>Vue</code>
+      <br><br>
+      <a href="https://github.com/zhenkun26/TripMate#快速开始--quick-start">Quick start</a>
     </td>
   </tr>
 </table>
 
-## 🛠️ Also Tinkering With
+## 🛠️ More Tools
 
-- **[auto-coding](https://github.com/zhenkun26/auto-coding)** — workflow guidance for taking a coding assistant from a request through implementation and checks, with room to choose tools that fit the job.
-- **[BarTidy](https://github.com/zhenkun26/BarTidy)** — a macOS menu bar tray adapted from [Thaw](https://github.com/thaw-app/Thaw) for my own use. Hover to expand, move away to tuck it back.
+- **[auto-coding](https://github.com/zhenkun26/auto-coding)** — a delivery workflow for AI coding assistants, covering planning, implementation, verification, and handoff.
+- **[BarTidy](https://github.com/zhenkun26/BarTidy)** — a personal macOS menu bar utility adapted from [Thaw](https://github.com/thaw-app/Thaw), with hover-to-expand interaction.
 
 ## 📫 Let's Talk
 
-Open to **AI application engineering / Python backend development** opportunities. Happy to talk about projects, too.
+Open to **AI application engineering / Python backend development** opportunities.
 
-[Blog (under construction)](https://zhenkun26.github.io/Zhenkun-blog-site/) · [Email](mailto:zzk26personal@163.com) · [More repositories](https://github.com/zhenkun26?tab=repositories)
+[Email](mailto:zzk26personal@163.com) · [Blog (under construction)](https://zhenkun26.github.io/Zhenkun-blog-site/)
