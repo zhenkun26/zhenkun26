@@ -4,7 +4,7 @@
 
 # 👋 你好，我是 Zhenkun
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=600&amp;size=22&amp;pause=1200&amp;color=58A6FF&amp;center=true&amp;vCenter=true&amp;width=760&amp;lines=Building+AI+apps+for+everyday+tasks;Knowledge+assistants+and+code+review;Agent+workflows+and+everyday+tools" alt="AI 应用、知识助手、代码审查与日常工作流" width="760">
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=600&amp;size=22&amp;pause=1200&amp;color=58A6FF&amp;center=true&amp;vCenter=true&amp;width=760&amp;lines=Building+AI+apps+for+everyday+tasks;Knowledge+assistants+and+code+review;Coding+assistants+and+everyday+tools" alt="AI 应用、知识助手、代码审查与日常工具" width="760">
 
 **AI 应用 · 代码审查 · Python 后端**
 
@@ -21,7 +21,7 @@
 
 我主要做 AI 应用和 Python 后端，最近的重点是企业知识助手和代码审查工具：从资料里找答案、用对话处理业务请求，也让 AI 编程助手对照原始需求检查改动。
 
-除此之外，也在整理 AI 编程助手的使用方法、做天气简报工作流，偶尔改改自己用的 Mac 工具。[博客](https://zhenkun26.github.io/Zhenkun-blog-site/)还在建设中，之后会慢慢写下项目里的尝试和收获。
+除此之外，也在整理 AI 编程助手的使用方法，偶尔改改自己用的 Mac 工具。[博客](https://zhenkun26.github.io/Zhenkun-blog-site/)还在建设中，之后会慢慢写下项目里的尝试和收获。
 
 ## 🚀 代表作品
 
@@ -59,7 +59,6 @@
 ## 🛠️ 最近还在折腾
 
 - **[auto-coding](https://github.com/zhenkun26/auto-coding)**：把需求、实现、检查和交付串起来的一套 AI 编程协作方法，给助手留出选择工具和做法的空间。
-- **[Atmos-n8n](https://github.com/zhenkun26/Atmos-n8n)**：用 n8n 把南京、芜湖的天气预报整理成英文邮件简报，可选用 AI 润色摘要。
 - **[BarTidy](https://github.com/zhenkun26/BarTidy)**：给自己用的 macOS 菜单栏收纳盒，基于 [Thaw](https://github.com/thaw-app/Thaw) 改造。鼠标悬停就展开，移开就收回。
 
 ## 📫 聊聊与联系
