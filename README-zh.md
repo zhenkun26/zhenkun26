@@ -69,7 +69,7 @@
 - **[auto-coding](https://github.com/zhenkun26/auto-coding)**：面向 AI 编程助手的交付工作流，串起规划、实现、验证与交付。
 - **[BarTidy](https://github.com/zhenkun26/BarTidy)**：基于 [Thaw](https://github.com/thaw-app/Thaw) 改造的自用 macOS 菜单栏工具，悬停展开，移开收回。
 
-## 📫 聊聊与联系
+## 📫 联系我
 
 正在寻找 **AI 应用开发 / Python 后端**相关机会。
 
