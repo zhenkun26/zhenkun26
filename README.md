@@ -73,4 +73,4 @@ I build AI applications and Python backends for knowledge retrieval and business
 
 Open to **AI application engineering / Python backend development** opportunities.
 
-[Email](mailto:zzk26personal@163.com) · [Blog (under construction)](https://zhenkun26.github.io/Zhenkun-blog-site/)
+[e-mail(163)](mailto:zzk26personal@163.com) · [e-mail(Gmail)](mailto:zhenkunz25@gmail.com)

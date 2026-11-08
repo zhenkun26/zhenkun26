@@ -73,4 +73,4 @@
 
 正在寻找 **AI 应用开发 / Python 后端**相关机会。
 
-[邮件](mailto:zzk26personal@163.com) · [博客（建设中）](https://zhenkun26.github.io/Zhenkun-blog-site/)
+[e-mail(163)](mailto:zzk26personal@163.com) · [e-mail(Gmail)](mailto:zhenkunz25@gmail.com)
