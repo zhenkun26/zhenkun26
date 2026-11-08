@@ -2,7 +2,7 @@
 
 <p><a href="README.md">English</a> | <strong>简体中文</strong></p>
 
-# 👋 你好，我是 Zhenkun
+# 👋 你好，我是 Zachary Zhao
 
 **AI 应用开发 · Python 后端**
 
