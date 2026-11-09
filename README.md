@@ -28,12 +28,12 @@ I build AI applications and Python backends for knowledge retrieval and business
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/zhenkun26/BusinessAgent">🏢 BusinessAgent</a></h3>
+      <h3><a href="https://github.com/zhenkun26/Business-Agent">🏢 BusinessAgent</a></h3>
       An assistant for enterprise knowledge and business tasks, with role-based access and human approvals. Demonstrated with sample data and mock tools.
       <br><br>
       <code>Python</code> <code>LangGraph</code>
       <br><br>
-      <a href="https://github.com/zhenkun26/BusinessAgent/blob/main/README-en.md#architecture">Architecture</a>
+      <a href="https://github.com/zhenkun26/Business-Agent/blob/main/README-en.md#architecture">Architecture</a>
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/zhenkun26/Code-Inspection">🔎 Code-Inspection</a></h3>

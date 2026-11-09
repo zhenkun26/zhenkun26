@@ -28,12 +28,12 @@
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/zhenkun26/BusinessAgent">🏢 BusinessAgent · 智多星</a></h3>
+      <h3><a href="https://github.com/zhenkun26/Business-Agent">🏢 BusinessAgent · 智多星</a></h3>
       企业知识与业务工作流助手，支持角色权限和人工审批。目前以样例数据和模拟工具演示。
       <br><br>
       <code>Python</code> <code>LangGraph</code>
       <br><br>
-      <a href="https://github.com/zhenkun26/BusinessAgent#系统架构">系统架构</a>
+      <a href="https://github.com/zhenkun26/Business-Agent#系统架构">系统架构</a>
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/zhenkun26/Code-Inspection">🔎 Code-Inspection</a></h3>
